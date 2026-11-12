@@ -1,0 +1,180 @@
+1
+00:00:00,000 --> 00:00:04,773
+This is Form Canvas, a drag-and-drop form designer widget for Mendix.
+
+2
+00:00:04,962 --> 00:00:10,911
+It draws your own form model, and your app's microflows keep the data, the rules and the versions.
+
+3
+00:00:11,212 --> 00:00:12,383
+Let's build a form.
+
+4
+00:00:13,659 --> 00:00:16,545
+Every form has its own place in the forms list.
+
+5
+00:00:16,925 --> 00:00:20,202
+A new form asks for its settings first. A name,
+
+6
+00:00:22,190 --> 00:00:25,786
+a wizard with steps, or a single page without steps,
+
+7
+00:00:26,125 --> 00:00:27,847
+how many steps to start with,
+
+8
+00:00:28,359 --> 00:00:31,073
+and a horizontal or a vertical step bar.
+
+9
+00:00:31,458 --> 00:00:36,060
+Create and open: the form is ready, with one section for each step.
+
+10
+00:00:36,724 --> 00:00:39,524
+Drag a field type from the palette into a step.
+
+11
+00:00:40,324 --> 00:00:41,776
+Add as many as you need.
+
+12
+00:00:46,023 --> 00:00:49,448
+The width chip makes a field half, or a third of the row.
+
+13
+00:00:55,609 --> 00:00:57,735
+Now the two fields share one row.
+
+14
+00:01:04,142 --> 00:01:07,923
+Here is a complete example: a leave request with three steps.
+
+15
+00:01:08,355 --> 00:01:14,488
+Each field shows chips: what it depends on, what its rules do, its access and its flags.
+
+16
+00:01:15,891 --> 00:01:18,556
+Click a field to edit it in the docked inspector.
+
+17
+00:01:18,964 --> 00:01:24,447
+Its label and its help have a box for every language: English, Arabic and Spanish.
+
+18
+00:01:24,822 --> 00:01:30,147
+The options can come from the field's own list, a shared lookup list, or an external list.
+
+19
+00:01:30,590 --> 00:01:35,204
+Here they follow the unit: each option can belong under one of the unit's values.
+
+20
+00:01:35,839 --> 00:01:38,933
+And an option like Other can ask the person for details.
+
+21
+00:01:40,206 --> 00:01:45,665
+Computed fields have a formula: working days are counted between the first and the last day.
+
+22
+00:01:46,252 --> 00:01:49,113
+Starting values and limits are set the same way.
+
+23
+00:01:49,973 --> 00:01:53,937
+Rules are typed, never code. This one makes the reason required.
+
+24
+00:01:54,304 --> 00:01:58,403
+All conditions of a group must hold, and any group is enough.
+
+25
+00:01:58,972 --> 00:02:03,475
+A condition compares with a value, or with another field, and can be negated.
+
+26
+00:02:03,770 --> 00:02:10,504
+Then: show, hide, require, lock, set a value, or stop the form with a message.
+
+27
+00:02:12,872 --> 00:02:17,731
+The access view sets every section and field, per workflow stage and role.
+
+28
+00:02:18,323 --> 00:02:21,613
+Hidden, shown, editable, or required.
+
+29
+00:02:21,973 --> 00:02:25,104
+And Preview as shows the form the way that stage sees it.
+
+30
+00:02:31,288 --> 00:02:34,983
+The live preview is the real form, with real inputs.
+
+31
+00:02:35,455 --> 00:02:38,022
+Fill in the first step, and Next checks it.
+
+32
+00:02:42,787 --> 00:02:47,572
+Choose Unpaid: paid leave disappears, and the reason becomes required.
+
+33
+00:02:48,153 --> 00:02:50,524
+Choose Other, and the form asks which.
+
+34
+00:02:50,717 --> 00:02:53,382
+Next will not go on until the step is complete.
+
+35
+00:02:59,735 --> 00:03:02,315
+One form has a text for every language.
+
+36
+00:03:02,752 --> 00:03:06,201
+Edit in Arabic, and the canvas turns right to left.
+
+37
+00:03:06,649 --> 00:03:11,986
+Missing translations show on the canvas, and required languages are checked before publishing.
+
+38
+00:03:12,888 --> 00:03:15,504
+Check writes each problem on its own field.
+
+39
+00:03:18,551 --> 00:03:22,540
+Publish creates a new version, and keeps the older ones read-only.
+
+40
+00:03:26,683 --> 00:03:30,561
+Lookup lists, languages and stages are shared by every form.
+
+41
+00:03:30,920 --> 00:03:36,183
+A value's parent is picked from a list, with a search, so dependent lists cannot break.
+
+42
+00:03:36,587 --> 00:03:38,309
+And dark mode is built in.
+
+43
+00:03:39,168 --> 00:03:42,960
+Form Canvas will be available soon on the Mendix Marketplace.
+
+44
+00:03:43,563 --> 00:03:46,645
+We tried to cover every case a form builder needs.
+
+45
+00:03:47,061 --> 00:03:50,608
+Try the demo app from the link in the post, and tell us what you think.
+

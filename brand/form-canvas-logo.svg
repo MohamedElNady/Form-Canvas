@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="512" height="512">
+  <title>Form Canvas</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#322e83"/>
+      <stop offset="0.5" stop-color="#5634b7"/>
+      <stop offset="1" stop-color="#7a39ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="215" fill="url(#bg)"/>
+  <!-- two halves -->
+  <rect x="174" y="174" width="315" height="135" rx="34" fill="#ffffff"/>
+  <rect x="535" y="174" width="315" height="135" rx="34" fill="#ffffff"/>
+  <!-- three thirds, the middle one selected -->
+  <rect x="175" y="356" width="193" height="134" rx="34" fill="#ffffff" fill-opacity="0.59"/>
+  <rect x="415" y="356" width="192" height="134" rx="34" fill="#facc15"/>
+  <rect x="656" y="356" width="194" height="134" rx="34" fill="#ffffff" fill-opacity="0.59"/>
+  <!-- one full width -->
+  <rect x="174" y="537" width="676" height="216" rx="34" fill="#ffffff"/>
+</svg>
